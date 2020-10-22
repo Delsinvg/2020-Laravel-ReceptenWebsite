@@ -1,0 +1,4 @@
+Logboek:
+
+(22/10): Aanmaken laravel project
+         Database schema maken als schets
