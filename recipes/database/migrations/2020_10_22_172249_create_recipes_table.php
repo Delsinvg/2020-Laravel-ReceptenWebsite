@@ -17,6 +17,7 @@ class CreateRecipesTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name');
+            $table->string("imagePath")->nullable();
             $table->text('description');
             $table->text('cookingTime');
             $table->boolean('visible');
