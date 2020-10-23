@@ -11,11 +11,12 @@ use App\Models\RecipeIngredients;
 class RecipeController extends Controller
 {
     public function index() {
-        $recipes = Recipe::paginate(6);
+        $recipes = Recipe::where('visible', true)->simplePaginate(6);
         return view('recipes', ['recipes' => $recipes]);
     }
 
-    public function show() {
-        return view('welcome');
+    public function show($id) {
+        $recipe = Recipe::with('ingredient')->findOrFail($id);
+        return view('recipedetails', ['recipe' => $recipe]);
     }
 }

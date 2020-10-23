@@ -20,7 +20,7 @@ class RecipeSeeder extends Seeder
             'imagePath' => '',
             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id nisi non massa commodo suscipit. Praesent commodo ut sapien non mollis. Aliquam porttitor quam mollis tellus placerat semper. Ut commodo imperdiet lacus eu pharetra. Nullam tellus nisi, dignissim eget lacus quis, tincidunt efficitur neque. Sed imperdiet sit amet sapien a dapibus. Pellentesque vehicula maximus ante, nec mollis felis porttitor at. Fusce cursus luctus egestas. Aliquam faucibus est non vulputate rutrum.',
             'cookingTime' => '20 minuten',
-            'visible' => false,
+            'visible' => true,
             'categoryId' => 1
         ]);
 

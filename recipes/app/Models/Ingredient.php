@@ -10,8 +10,8 @@ class Ingredient extends Model
     protected $table = 'ingredients';
     protected $fillable = ['name', 'unit'];
 
-    public function recipes()
+    public function recipe()
     {
-        return $this->belongsToMany('App\Models\Recipe', 'recipeingredients', 'recipeId', 'ingredientId');
+        return $this->belongsToMany('App\Models\Recipe', 'recipeingredients', 'ingredientId', 'recipeId');
     }
 }

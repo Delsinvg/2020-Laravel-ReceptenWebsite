@@ -10,13 +10,14 @@ class Recipe extends Model
     protected $table = 'recipes';
     protected $fillable = ['name', 'imagePath', 'description', 'cookingTime', 'visible', 'categoryId'];
 
+    public function ingredient()
+    {
+        return $this->belongsToMany('App\Models\Ingredient', 'recipeingredients', 'recipeId', 'ingredientId');
+    }
     public function category()
     {
         return $this->belongsTo('App\Models\Category', 'categoryId');
     }
 
-    public function ingredients()
-    {
-        return $this->belongsToMany('App\Models\Orders', 'recipeingredients', 'ingredientId', 'recipeId');
-    }
+
 }

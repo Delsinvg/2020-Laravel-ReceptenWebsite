@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/recipes', [RecipeController::class, 'index']);
-Route::get('/recipe/{id}', [RecipeController::class, 'show']);
+Route::get('/recipes/{id}', [RecipeController::class, 'show']);
