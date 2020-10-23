@@ -5,4 +5,10 @@ Logboek:
          Aanmaken Controller
          Aanmaken migrations & seeders
 
-(23/10): 
+         19u - 21u
+
+(23/10): Aanmaken models
+         Frontend via bootstrapcards
+         Paginering
+        
+         8u30 - 10u20
