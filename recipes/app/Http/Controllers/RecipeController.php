@@ -11,7 +11,7 @@ use App\Models\RecipeIngredients;
 class RecipeController extends Controller
 {
     public function index() {
-        $recipes = Recipe::all();
+        $recipes = Recipe::paginate(6);
         return view('recipes', ['recipes' => $recipes]);
     }
 
