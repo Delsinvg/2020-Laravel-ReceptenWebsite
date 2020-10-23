@@ -6,6 +6,10 @@
     <title>Home</title>
 </head>
 <body>
-<h1>Just a test</h1>
+<div class=".container-fluid">
+@foreach($recipes as $recipe)
+    <h1>{{ $recipe->name }}</h1>
+@endforeach
+</div>
 </body>
 </html>
