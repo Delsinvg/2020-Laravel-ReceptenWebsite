@@ -2,3 +2,7 @@ Logboek:
 
 (22/10): Aanmaken laravel project
          Database schema maken als schets
+         Aanmaken Controller
+         Aanmaken migrations & seeders
+
+(23/10): 
