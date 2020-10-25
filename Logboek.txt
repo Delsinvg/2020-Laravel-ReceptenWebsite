@@ -10,5 +10,6 @@ Logboek:
 (23/10): Aanmaken models
          Frontend via bootstrapcards
          Paginering
-        
          8u30 - 10u20
+
+	 

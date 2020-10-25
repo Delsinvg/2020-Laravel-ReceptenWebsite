@@ -12,7 +12,7 @@ class Recipe extends Model
 
     public function ingredient()
     {
-        return $this->belongsToMany('App\Models\Ingredient', 'recipeingredients', 'recipeId', 'ingredientId');
+        return $this->belongsToMany('App\Models\Ingredient', 'recipeingredients', 'recipeId', 'ingredientId')->withPivot('quantity');
     }
     public function category()
     {
