@@ -32,6 +32,7 @@
       <excludeFolder url="file://$MODULE_DIR$/recipes/vendor/laravel/ui" />
       <excludeFolder url="file://$MODULE_DIR$/recipes/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/recipes/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/recipes/vendor/league/mime-type-detection" />
       <excludeFolder url="file://$MODULE_DIR$/recipes/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/recipes/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/recipes/vendor/myclabs/deep-copy" />
