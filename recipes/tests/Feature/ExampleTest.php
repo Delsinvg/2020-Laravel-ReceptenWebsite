@@ -14,8 +14,5 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-        $test = true;
-
-        assertTrue($test);
     }
 }
